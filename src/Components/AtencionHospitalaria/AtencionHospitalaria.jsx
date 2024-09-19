@@ -9,7 +9,7 @@ const AtencionHospitalaria = () => {
     <>
     <section className={styles.hospitalesContainer}>
         <div className={styles.hospitalizacionImg}>
-            <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1726673994/Escoliosis/PlacaToraxica_mnc7av.png" alt="Img hospitalizacion" />
+            <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1726716504/Escoliosis/Disen%CC%83o_sin_ti%CC%81tulo_xxbto2.png" alt="Img hospitalizacion" />
         </div>
         <div className={styles.hospitalizacionInf}>
             <h1>¿Sabías que existen <strong>jornadas 
