@@ -1,0 +1,175 @@
+.hospitalesContainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+
+.hospitalizacionImg img {
+    width: 135%;
+    height: 100%;
+}
+
+
+.hospitalizacionInf h1 {
+    color: #00c6c2;
+    padding: 0px 50px;
+}
+
+.hospitalizacionInf h3 {
+    color: white;
+    padding: 10px 0px;
+    padding: 0px 50px;
+}
+
+.infHospitales {
+    display: grid;
+    grid-template-columns: 5% 95%;
+    margin-left: 40px;
+}
+
+.iconPlus {
+    font-size: 60px;
+    align-self: center;
+    justify-self: end;
+    z-index: 1;
+    color: white;
+}
+
+.hospitalizacionInf h2 {
+    color: white;
+    padding-left: 30px;
+    background-color: #00c6c2;
+    align-self: center;
+    position: absolute;
+    margin: 40px;
+    width: 64%;
+    font-size: 35px;
+}
+
+.hospitales {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.hospital {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    padding-top: 30px;
+}
+
+.NombreDeHospital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.NombreDeHospital h6 {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.datosDeHospital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.datosDeHospital a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.iconDirection {
+    color: #00c6c2;
+}
+
+@media (min-width: 769px) and (max-width: 1250px) {
+    .hospitalizacionInf h1 {
+        font-size: xx-large;
+    }
+
+    .hospitalizacionInf h2 {
+        margin: 20px;
+        font-size: x-large;
+    }
+
+    .hospitalizacionInf h3 {
+        font-size: x-large;
+    }
+
+    .NombreDeHospital h6,
+    .datosDeHospital a {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .hospitalizacionInf h1 {
+        font-size: x-large;
+        padding: 0%;
+        text-align: center;
+    }
+
+    .hospitalizacionInf h2 {
+        margin: 0px;
+        font-size: large;
+    }
+
+    .hospitalizacionInf h3 {
+        font-size: large;
+    }
+
+    .NombreDeHospital h6,
+    .datosDeHospital a {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media (width <=600px) {
+    .hospitalesContainer {
+        margin-top: 30px;
+    }
+
+    .hospitalizacionInf h1,
+    .hospitalizacionInf h3 {
+        font-size: larger;
+        padding: 0;
+    }
+
+    .hospitalizacionInf h2 {
+        margin: 0px;
+        font-size: large;
+        padding: 0%;
+        width: 100%;
+        position: relative;
+        text-align: end;
+    }
+
+    .iconPlus {
+        font-size: 40px;
+    }
+
+    .hospitales {
+        grid-template-columns: 100%;
+    }
+
+    .NombreDeHospital h6,
+    .datosDeHospital a {
+        font-size: 15px;
+        text-align: center;
+    }
+}

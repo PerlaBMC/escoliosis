@@ -1,0 +1,73 @@
+.footerContainer {
+    height: 150px;
+    background-color: #00c6c2;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: white;
+}
+
+.enlaceWhatsApp {
+width: 100%;
+display: ruby;
+}
+
+.enlaceWhatsApp a {
+    width: 100%;
+}
+
+.IconContact {
+    font-size: xx-large;
+    color: #582c83;
+}
+
+@media (min-width: 970px) and (max-width: 1250px) {
+.contacto {
+    font-size: 15px;
+    gap: 5px;
+}
+}
+    
+@media  (min-width: 768px) and (max-width: 970px) {
+.footerContainer {
+    grid-template-columns: 35% 30% 35%;
+}
+
+.contacto {
+    font-size: 12px;
+    gap: 0px;
+}
+.IconContact {
+    font-size: large;
+}
+.footerContainer h2 {
+    font-size: medium;
+}
+}
+    
+@media (width <= 767px){
+.footerContainer{
+    display: block;
+}
+
+.contacto a{
+    text-align: center;
+}
+}

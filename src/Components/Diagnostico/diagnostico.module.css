@@ -1,0 +1,58 @@
+.diagnosticoContainer {
+    display: grid;
+    padding: 0% 5%;
+    gap: 5%;
+    grid-template-columns: 30% 30% 30%;
+    height: 500px;
+}
+
+.dxSection {
+    background-image: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1726624639/Escoliosis/HojaBlanca_az4bxf.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.dxSection h5 {
+    font-size: x-large;
+    text-align: center;
+}
+
+.imgStikerPlaca {
+    height: 140px;
+    position: absolute;
+    align-self: flex-start;
+    justify-self: end;
+    rotate: 30deg;
+}
+
+.stikerAparatoRX{
+height: 170px;
+position: absolute;
+align-self: flex-end;
+
+}
+
+@media (min-width: 551px) and (max-width: 1250px) {
+.dxSection h5 {
+    font-size: large;
+}
+}
+      
+@media (width <= 550px){
+.diagnosticoContainer {
+    grid-template-columns: 100%;
+    height: 1100px;
+}
+
+.dxSection h5 {
+    margin-top: 50px;
+}
+
+.imgStikerPlaca,
+.stikerAparatoRX {
+    height: 130px;
+}
+}

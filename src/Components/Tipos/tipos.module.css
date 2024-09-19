@@ -1,0 +1,56 @@
+.tipos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.tipo {
+display: grid;
+grid-template-rows: 40% 60%;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+
+.tipoNumero {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tipo h6 {
+    background-color: #00c6c2;
+    width: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 50%;
+    font-size: xx-large;
+}
+
+.tipo p {
+    color: white;
+    padding: 10px 30px;
+    font-size: x-large;
+    text-align: center;
+}
+
+@media (min-width: 970px) and (max-width: 1250px) {
+.tipo p{
+    font-size: large;
+}
+}
+
+@media  (min-width: 650px) and (max-width: 970px) {
+.tipo p{
+    font-size: medium;
+}
+}
+
+@media (width <= 767px){
+.tipos {
+    display: block;
+    margin-top: 20px;
+}
+}

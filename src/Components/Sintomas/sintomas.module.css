@@ -1,0 +1,61 @@
+.sintomas {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.sintoma {
+
+display: grid;
+grid-template-rows: 20% 80%;
+justify-content: center;
+align-items: start;
+}
+
+.sintoma img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sintoma p {
+    color: white;
+    padding: 10px 30px;
+    font-size: x-large;
+    text-align: center;
+}
+
+@media (min-width: 970px) and (max-width: 1250px) {
+.sintoma {
+    height: 350px;
+
+}
+
+.sintoma p {
+    font-size: large;
+}
+}
+    
+@media  (min-width: 551px) and (max-width: 970px) {
+.sintoma {
+    height: 350px;
+}
+
+.sintoma p{
+    font-size: medium;
+}
+
+.sintoma img {
+    margin-top: 110px;
+}
+}
+    
+@media (width <= 550px){
+.sintomas {
+    grid-template-columns: 50% 50%;
+ }
+
+.sintoma p {
+    font-size: 15px;
+}
+
+}

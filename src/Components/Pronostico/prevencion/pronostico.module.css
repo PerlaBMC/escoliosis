@@ -1,0 +1,210 @@
+.pronosticoContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 650px;
+    padding: 0px 50px;
+}
+
+.sectionPronosticoo {
+    background-image: url("https://res.cloudinary.com/dujrua0vo/image/upload/v1726624639/Escoliosis/HojaBlanca_az4bxf.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.sectionPronostico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sectionPronostico img {
+    width: 500px;
+    position: absolute;
+    z-index: 0;
+    rotate: -5deg;
+}
+
+.sectionPronostico h2 {
+    z-index: 1;
+    rotate: -5deg;
+    font-size: xx-large;
+    text-align: center;
+    color: aliceblue;
+}
+
+.sectionPronostico p {
+    z-index: 1;
+    rotate: -5deg;
+    padding: 40px 110px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.sectionPrevencion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionPrevencion img {
+    width: 500px;
+    position: absolute;
+    z-index: 0;
+    rotate: 5deg;
+}
+
+.sectionPrevencion h2 {
+    z-index: 1;
+    rotate: 5deg;
+    font-size: xx-large;
+    text-align: center;
+    color: aliceblue;
+}
+
+.sectionPrevencion p {
+    z-index: 1;
+    rotate: 5deg;
+    padding: 70px 110px;
+    font-size: x-large;
+    text-align: center;
+}
+
+@media (min-width: 1002px) and (max-width: 1250px) {
+    .pronosticoContainer {
+        padding: 0%;
+        height: 500px;
+    }
+
+    .sectionPrevencion img,
+    .sectionPronostico img {
+        width:
+            450px;
+    }
+
+    .sectionPrevencion img,
+    .sectionPrevencion h2,
+    .sectionPrevencion p {
+        rotate: 0deg;
+    }
+
+    .sectionPrevencion p {
+        padding: 50px 40px;
+    }
+
+    .sectionPronostico p {
+        padding: 20px 50px;
+    }
+
+}
+
+@media (min-width: 730px) and (max-width: 1001px) {
+    .pronosticoContainer {
+        padding: 0%;
+        height: 350px;
+    }
+
+    .sectionPrevencion img,
+    .sectionPronostico img {
+        width:
+            350px;
+    }
+
+    .sectionPrevencion img,
+    .sectionPrevencion h2,
+    .sectionPrevencion p {
+        rotate: 0deg;
+    }
+
+    .sectionPrevencion h2,
+    .sectionPronostico h2 {
+        font-size: large;
+    }
+
+    .sectionPrevencion p {
+        font-size: medium;
+        padding: 25px 80px;
+    }
+
+    .sectionPronostico p {
+        font-size: medium;
+        padding: 20px 50px;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 729px) {
+    .pronosticoContainer {
+        height: 100%;
+        padding: 0%;
+        grid-template-columns: 100%;
+    }
+
+    .sectionPronostico img,
+    .sectionPrevencion img {
+        width: 400px;
+    }
+
+    .sectionPrevencion img,
+    .sectionPrevencion h2,
+    .sectionPrevencion p {
+        rotate: 0deg;
+    }
+
+    .sectionPronostico p,
+    .sectionPrevencion p {
+        font-size: large;
+        padding: 58px 25px;
+    }
+
+
+    .sectionPronostico h2,
+    .sectionPrevencion h2 {
+        color: #00c6c2;
+        rotate: 0deg;
+    }
+
+
+    .sectionPrevencion p,
+    .sectionPronostico p {
+        rotate: 0deg;
+        color: white;
+    }
+
+    .sectionPrevencion img,
+    .sectionPronostico img {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+
+
+@media (width <=440px) {
+    .pronosticoContainer {
+        height: 100%;
+        padding: 0%;
+        grid-template-columns: 100%;
+    }
+
+    .sectionPronostico img,
+    .sectionPrevencion img {
+        width: 400px;
+    }
+
+    .sectionPronostico p,
+    .sectionPrevencion p {
+        font-size: large;
+        padding: 58px 25px;
+    }
+
+    .sectionPrevencion img,
+    .sectionPrevencion h2,
+    .sectionPrevencion p,
+    .sectionPronostico img,
+    .sectionPronostico h2,
+    .sectionPronostico p {
+        rotate: 0deg;
+    }
+}

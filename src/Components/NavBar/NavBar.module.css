@@ -1,0 +1,57 @@
+.NavBarContainer {
+    height: 150px;
+    background-color: #dddbf9;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+display: flex;
+align-items: center;
+justify-content: end;
+gap: 30px;
+padding-right: 20px;
+font-family:  "Poppins", sans-serif;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+@media (min-width: 970px) and (max-width: 1250px) {
+    .menu {
+        gap: 20px;
+    }
+}
+
+@media  (min-width: 768px) and (max-width: 970px) {
+.menu {
+    gap: 15px;
+    padding-right: 10px;
+}
+.menu a {
+font-size: 13px;
+}
+}
+
+@media (width <= 767px){
+    .menu {
+        display: none;
+        visibility: hidden;
+    }
+    .NavBarContainer {
+        grid-template-columns: 70% 30%;
+    }
+}

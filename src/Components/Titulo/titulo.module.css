@@ -1,0 +1,12 @@
+.titulo {
+    background-color: #00c6c2;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.titulo h2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
