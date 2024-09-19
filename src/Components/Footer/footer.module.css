@@ -1,5 +1,4 @@
 .footerContainer {
-    height: 150px;
     background-color: #00c6c2;
     display: grid;
     grid-template-columns: 40% 30% 30%;

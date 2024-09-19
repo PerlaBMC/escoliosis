@@ -196,15 +196,22 @@
     .sectionPronostico p,
     .sectionPrevencion p {
         font-size: large;
-        padding: 58px 25px;
+        padding: 10px 25px;
+        color: white;
+        rotate: 0deg;
+    }
+
+    .sectionPrevencion img,
+    .sectionPronostico img {
+        display: none;
+        visibility: hidden;
     }
 
     .sectionPrevencion img,
     .sectionPrevencion h2,
-    .sectionPrevencion p,
     .sectionPronostico img,
-    .sectionPronostico h2,
-    .sectionPronostico p {
+    .sectionPronostico h2 {
         rotate: 0deg;
+        color: #00c6c2;
     }
 }

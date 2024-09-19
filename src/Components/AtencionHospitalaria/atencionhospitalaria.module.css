@@ -142,17 +142,25 @@
 @media (width <=600px) {
     .hospitalesContainer {
         margin-top: 30px;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .hospitalizacionImg img {
+        width: 100%;
+        mask-image: linear-gradient(black 80%,
+        transparent);
     }
 
     .hospitalizacionInf h1,
     .hospitalizacionInf h3 {
         font-size: larger;
-        padding: 0;
+        padding: 10px;
     }
 
     .hospitalizacionInf h2 {
         margin: 0px;
-        font-size: large;
+        font-size: 25px;
         padding: 0%;
         width: 100%;
         position: relative;
@@ -167,7 +175,10 @@
         grid-template-columns: 100%;
     }
 
-    .NombreDeHospital h6,
+    .NombreDeHospital h6 {
+        font-size: 20px;
+    }
+
     .datosDeHospital a {
         font-size: 15px;
         text-align: center;
