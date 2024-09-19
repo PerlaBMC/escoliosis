@@ -156,6 +156,7 @@
     .hospitalizacionInf h3 {
         font-size: larger;
         padding: 10px;
+        text-align: center;
     }
 
     .hospitalizacionInf h2 {
@@ -165,10 +166,17 @@
         width: 100%;
         position: relative;
         text-align: end;
+        text-align: center;
+    }
+
+    .infHospitales {
+        display: block;
+        margin: 0;
     }
 
     .iconPlus {
-        font-size: 40px;
+       display: none;
+       visibility: hidden;
     }
 
     .hospitales {

@@ -53,4 +53,9 @@ margin-bottom: 30px;
     display: block;
     margin-top: 20px;
 }
+
+.tipo h6 {
+    width: 70px;
+}
+
 }
