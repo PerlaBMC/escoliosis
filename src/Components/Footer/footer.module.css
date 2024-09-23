@@ -1,11 +1,22 @@
 .footerContainer {
     background-color: #00c6c2;
+    color: white;
+}
+
+.footerContainer p {
+    text-align: center;
+    font-size: 25px;
+    margin: 0%;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.seccionesFooter {
     display: grid;
     grid-template-columns: 40% 30% 30%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
     font-weight: bold;
     padding-top: 15px;
 }
@@ -26,7 +37,7 @@
 
 .enlaceWhatsApp {
 width: 100%;
-display: ruby;
+
 }
 
 .enlaceWhatsApp a {
@@ -46,7 +57,7 @@ display: ruby;
 }
     
 @media  (min-width: 768px) and (max-width: 970px) {
-.footerContainer {
+.seccionesFooter {
     grid-template-columns: 35% 30% 35%;
 }
 
@@ -63,7 +74,7 @@ display: ruby;
 }
     
 @media (width <= 767px){
-.footerContainer{
+.seccionesFooter{
     display: block;
 }
 

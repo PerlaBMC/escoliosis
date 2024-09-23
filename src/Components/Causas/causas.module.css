@@ -1,0 +1,95 @@
+.causasContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.causasContainer h4 {
+    color: white;
+    text-align: justify;
+    border: 5px dotted #00c6c2;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.fxRiesgoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fxRiesgoContainer h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #00c6c2;
+}
+
+.fxRiesgo {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 5%;
+    gap: 5%;
+}
+
+.fx img {
+    width: 100px;
+    position: absolute;
+}
+
+.fx h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.fx p {
+    color: white;
+    text-align: justify;
+    font-size: 22px;
+}
+
+@media (min-width: 666px) and (max-width: 1250px) {
+    .fx img {
+        width: 85px;
+    }
+
+    .fx p {
+        font-size: medium;
+    }
+}
+
+
+@media (width <=665px) {
+.causasContainer {
+    padding: 5% 10%;
+}
+
+.causasContainer h4 {
+    font-size: 18px;
+}
+
+.fxRiesgo {
+    grid-template-columns: 100%;
+    margin-bottom: 50px;
+}
+
+.fx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.fx img {
+    width: 70px;
+}
+
+.fx p {
+    font-size: medium;
+}
+
+
+}

@@ -94,13 +94,13 @@
 
 @media (min-width: 970px) and (max-width: 1250px) {
     .bannerInformation h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 651px) and (max-width: 969px) {
     .bannerInformation h1 {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 

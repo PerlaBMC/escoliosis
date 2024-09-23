@@ -6,6 +6,8 @@ import Diagnostico from "../../Components/Diagnostico/Diagnostico";
 import Tratamiento from "../../Components/Tratamiento/Tratamiento";
 import Pronostico from "../../Components/Pronostico/prevencion/Pronostico";
 import AtencionHospitalaria from "../../Components/AtencionHospitalaria/AtencionHospitalaria";
+import Causas from "../../Components/Causas/Causas";
+import EjerciciosPreventivos from "../../Components/EjerciciosPreventivos/EjerciciosPreventivos";
 
 
 const HomePage = () => {
@@ -14,12 +16,16 @@ const HomePage = () => {
    <div className={styles.HomePageComatiner}>
     <section className={styles.bannerContainer}>
     <div className={styles.bannerInformation} id="QueEs">
-      <h1>La escoliosis se caracteriza por una <strong>curvatura lateral de la columna vertebral,</strong> 
-        que puede adoptar la forma de una “S” o de una “C” en lugar de una alineación recta.</h1>
+      <h1>La escoliosis es una curvatura anormal de la columna vertebral que puede tener forma de “S” o “C”. Esta condición puede variar en gravedad, 
+        desde leve hasta severa, y generalmente se detecta durante la infancia o adolescencia..</h1>
     </div>
     <div className={styles.bannerImg}>
       <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1726630663/Escoliosis/Imagen_Escoliosis2_uati2d.png" alt="" />
     </div>
+    </section>
+    <section>
+      <Titulo Titulo= "Causas" />
+      <Causas/>
     </section>
     <section>
     <Titulo Titulo="Tipos"/>
@@ -39,6 +45,9 @@ const HomePage = () => {
     </section>
     <section>
       <Pronostico/>
+    </section>
+    <section>
+      <EjerciciosPreventivos/>
     </section>
     <section id="Atencion">
       <AtencionHospitalaria/>

@@ -7,7 +7,7 @@ const WhatsAppButton = ({ phoneNumber, message }) => {
   return (
     <div className={styles.enlaceWhatsApp}>
     <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-     <FaWhatsapp className={styles.IconContact}/> <p>55-19-12-66-41</p>
+    <p> <FaWhatsapp className={styles.IconContact}/> 55-19-12-66-41</p>
     </a>
     </div>
   );

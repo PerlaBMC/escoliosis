@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import NavBar from "../Components/NavBar/NavBar";
 import HomePage from "../Pages/HomePage/HomePage";
 import Footer from "../Components/Footer/Footer";
+import PoliticasDePrivacidad from "../Components/PoliticasDePrivacidad/PoliticasDePrivacidad";
 
 
 
@@ -15,6 +16,7 @@ const AppRouter = () => {
 			<NavBar/>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
+				<Route path="/políticasDePrivacidad" element={<PoliticasDePrivacidad />} />
 			</Routes>
 			<Footer/>
 		</BrowserRouter>

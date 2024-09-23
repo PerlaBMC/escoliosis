@@ -1,0 +1,60 @@
+.ejerciciosContainer {
+    padding: 2% 20%;
+    margin-bottom: 5%;
+}
+
+.ejerciciosContainer img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ejerciciosContainer h3 {
+    color: #00c6c2;
+    font-size: 35px;
+}
+
+.ejerciciosContainer p {
+    color: #3b1660;
+    font-size: large;
+}
+
+.ejerciciosContainer h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #00c6c2;
+    margin: 5%;
+}
+
+@media (min-width: 970px) and (max-width: 1250px) {
+.ejerciciosContainer h3 {
+    font-size: 20px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 970px) {
+.ejerciciosContainer {
+    padding: 2% 15%; ;
+}
+    
+.ejerciciosContainer h3 {
+    font-size: medium;
+}
+
+.ejerciciosContainer p{
+    font-size: medium;
+}
+}
+
+@media (width <=767px) {
+.ejerciciosContainer {
+    padding: 0%;
+}
+
+.ejerciciosContainer h3,
+.ejerciciosContainer p {
+    font-size: 13px;
+}
+    
+}
