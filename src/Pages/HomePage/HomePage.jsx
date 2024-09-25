@@ -24,23 +24,23 @@ const HomePage = () => {
     </div>
     </section>
     <section>
-      <Titulo Titulo= "Causas" />
+      <Titulo Titulo= "Causas de escoliosis" />
       <Causas/>
     </section>
     <section>
-    <Titulo Titulo="Tipos"/>
+    <Titulo Titulo="Tipos de escoliosis"/>
     <Tipos/>
     </section>
     <section id="Sintomas">
-    <Titulo Titulo="Síntomas"/>
+    <Titulo Titulo="Síntomas de escoliosis"/>
     <Sintomas/>
     </section>
     <section id="Diagnostico" className={styles.Diagnostico}>
-      <Titulo Titulo="Diagnóstico"/>
+      <Titulo Titulo="Diagnóstico de escoliosis"/>
       <Diagnostico/>
     </section>
     <section id="Tratamiento" className={styles.Tratamiento}>
-      <Titulo Titulo="Tratamiento"/>
+      <Titulo Titulo="Tratamiento de ecoliosis"/>
       <Tratamiento/>
     </section>
     <section>
