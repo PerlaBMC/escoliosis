@@ -10,3 +10,14 @@
     font-size: 50px;
     font-weight: bolder;
 }
+
+@media (width <= 1024px){
+.titulo {
+    width: 400px;
+}
+
+.titulo h2 {
+   font-size: 30px;
+}
+    
+}
